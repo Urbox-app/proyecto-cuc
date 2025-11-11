@@ -8,19 +8,53 @@
   </head>
   <body>
     <header>
-        <div class="logo">
-            <span class="icono">🌿</span>
-            <h1>Galería de la Naturaleza</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <p class="frase">“Cada hoja, cada piedra, cuenta la historia de la Tierra.”</p>
+      <div class="logo">
+        <span class="icono">🌿</span>
+        <h1>Galería de la Naturaleza</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <p class="frase">
+        “Cada hoja, cada piedra, cuenta la historia de la Tierra.”
+      </p>
     </header>
+
+    <main id="galeria" class="galeria">
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=1" alt="Naturaleza 1" />
+      </div>
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=2" alt="Naturaleza 2" />
+      </div>
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=3" alt="Naturaleza 3" />
+      </div>
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=4" alt="Naturaleza 4" />
+      </div>
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=5" alt="Naturaleza 5" />
+      </div>
+      <div class="foto">
+        <img src="https://picsum.photos/400/250?random=6" alt="Naturaleza 6" />
+      </div>
+    </main>
+
+    <div class="contenedor-boton">
+      <button id="cargarMas">Cargar más fotos</button>
+    </div>
+
+    <!-- Modal de imagen -->
+    <div id="modal" class="modal">
+      <span id="cerrar">&times;</span>
+      <img class="modal-contenido" id="imagenAmpliada" />
+      <p id="textoImagen"></p>
+    </div>
 
     <script src="script.js"></script>
   </body>
