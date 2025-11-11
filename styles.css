@@ -143,3 +143,18 @@ button:hover {
 .contenedor-boton {
     margin-bottom: 40px;
 }
+
+/* FOOTER */
+footer {
+    background-color: #a3d9b1;
+    padding: 1em;
+}
+
+footer a {
+    color: #2b4a3e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
