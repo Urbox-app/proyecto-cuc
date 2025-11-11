@@ -42,3 +42,12 @@ botonCargar.addEventListener("click", () => {
     });
   }
 });
+
+
+const botonFondo = document.getElementById("cambiarFondo");
+const colores = ["#f0f9f4", "#fff8e7", "#e6f7ff", "#f9f0ff", "#fef6f0"];
+
+botonFondo.addEventListener("click", () => {
+    const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+    document.body.style.backgroundColor = colorAleatorio;
+});
